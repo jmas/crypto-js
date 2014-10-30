@@ -987,3 +987,5 @@ var CryptoJS = CryptoJS || (function (Math, undefined) {
      */
     C.HmacSHA1 = Hasher._createHmacHelper(SHA1);
 }());
+
+module.exports = CryptoJS;
